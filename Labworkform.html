@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <style>
+        *{
+            text-align: center;
+        }
+.one{
+    text-align: center;
+    text-shadow: 3px 3px 5px rgb(141, 93, 143);
+    color: white;
+    background-color: black;
+    border: 3px solid yellow;
+    padding: 20px;
+    border-radius: 80%;
+}
+.two{
+    background-color: white;
+}
+.two:hover{
+    background-color: rgb(204, 243, 243);
+     cursor: pointer;
+}
+.four{
+    display: inline-block;
+    margin-right: 50px;
+    font-size: large;
+}
+.container{
+    border: 1px solid black;
+    padding: 20px;
+    margin:auto;
+    width: 500px;
+}
+.submit{
+    padding: 10px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <h1 class="one">Registration Form</h1>
+    <br>
+    <form>
+        <div class="container">
+        <div class="two">
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="username" required>
+       </div>
+        <br>
+        <br>
+         <div class="two">
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="password" required>
+        </div>
+        <br>
+        <br>
+        <div class="two">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" placeholder="@gmail.com" required>
+        </div>
+        
+        <br>
+        <br>
+        <div  class="two">
+        <label for="phone">Phone no.:</label>
+        <input type="tel" id="phone" placeholder="91+" required>
+        </div>
+        </div>
+        <br>
+        <br>
+        <div  class="two">
+        <label for="bday">D.O.B</label>
+        <input type="date" id="bday" required>
+        </div>
+        <br><br><div class="four">
+        <b><label for="gender">Gender:</label></b></div>
+        <label for="male">Male</label>
+        <input type="radio" id="male" value="male" name="gender"required>
+        
+ <label for="female">Female</label>
+        <input type="radio" id="female" value="female" name="gender">
+        <label for="other">other</label>
+        <input type="radio" id="other" value="other" name="gender">
+        <BR><br>
+        <label for="city"> <B>CHOOSE CITY:</B></label>
+        <select id="city"required>
+            <option value="jammu">jammu</option>
+             <option value="delhi">delhi</option>
+             <option value="mumbai">mumbai</option>
+             <option value="other">other</option>
+        </select>
+        <br><br>
+        <a href="">
+        <input type="submit"class="submit">
+        </a>
+    </form>
+    
+</body>
+</html>
