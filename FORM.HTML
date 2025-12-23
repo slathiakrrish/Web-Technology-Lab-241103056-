@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <style>
+        *{
+            text-align: center;
+          
+        }
+.one{
+    text-align: center;
+    text-shadow: 3px 3px 5px rgb(141, 93, 143);
+    color: white;
+    background-color: rgb(51, 197, 197);
+    border: 3px solid rgb(10, 41, 21);
+    padding: 20px;
+    border-radius: 30%;
+}
+.two{
+    background-color: white;
+    
+}
+.two:hover{
+    background-color: rgb(204, 243, 243);
+     cursor: pointer;
+}
+.four{
+    display: inline-block;
+    margin-right: 50px;
+    font-size: large;
+}
+.container{
+    border: 1px solid black;
+    padding: 20px;
+    margin:auto;
+    width: 500px;
+    box-shadow: 3px 3px 5px,-3px -3px  5px;
+    border-radius: 20px;
+
+}
+.submit{
+    padding: 10px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    text-decoration: none;
+}
+.form{
+    background-color: rgb(244, 240, 235);
+}
+    </style>
+</head>
+<body>
+    <h1 class="one">Registration Form</h1>
+    <br>
+    <form class="form">
+        <div class="container">
+        <div class="two">
+        <label for="Enter name">Enter name:</label>
+        <input type="text" id="Enter name" placeholder="Enter name" >
+       </div>
+        <br>
+        <br>
+         <div class="two">
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="password">
+        </div>
+        <br>
+        <br>
+        <div class="two">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" placeholder="@gmail.com">
+        </div>
+        
+        <br>
+        <br>
+        <div  class="two">
+        <label for="phone">Phone no.:</label>
+        <input type="tel" id="phone" placeholder="+91">
+        </div>
+        </div>
+        <br>
+        <br>
+        <div  class="two">
+        <label for="bday">D.O.B</label>
+        <input type="date" id="bday">
+        </div>
+        <br><br><div class="four">
+        <b><label for="gender">Gender:</label></b></div>
+        <label for="male">Male</label>
+        <input type="radio" id="male" value="male" name="gender">
+        
+ <label for="female">Female</label>
+        <input type="radio" id="female" value="female" name="gender">
+        <label for="other">other</label>
+        <input type="radio" id="other" value="other" name="gender">
+        <BR><br>
+        <label for="city"> <B>CHOOSE CITY:</B></label>
+        <select id="city">
+            <option value="jammu">jammu</option>
+             <option value="delhi">delhi</option>
+             <option value="mumbai">mumbai</option>
+             <option value="other">other</option>
+        </select>
+        <br><br><br>
+        <a href="https://instagram.com/_krrish_slathia" class="submit">Submit</a>
+        <br><br>
+        
+        <hr><hr>
+    </form>
+    
+</body>
+</html>
